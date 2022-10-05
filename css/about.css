@@ -38,18 +38,9 @@ nav {
     align-items: center;
 }
 
-aside {
-    width: 40%;
-    height: 360px;
-    float:left;
-    margin-top: 20px;
-}
 
 main {
-    width: 60%;
-    float: right;
-    color:#000;
-    height: 570px;
+    height: 650px;
 }
 
 footer {
@@ -83,6 +74,7 @@ footer {
 p {
     color: black;
     font-size: 40px;
+    text-align: center;
 
 }
 
@@ -92,6 +84,7 @@ p {
 
 h1 {
     font-size: 60px;
+    text-align: center;
 }
 
 input {
@@ -109,9 +102,59 @@ input {
 }
 
 .all-artists {
-    font-size: 60px;
-    margin-top: 1500px;
+    font-size: 25px;
+    margin-top: 500px;
     margin-left: 15px;
-    padding: 20px;
 }
+
+@media screen and (max-width: 1280px) {
+    #troca-breakpoints {
+        width: 95%;
+    }
+    main {
+        width: 65%;
+    }
+    aside {
+        width: 30%
+    }
+   
+}
+
+/*  Para o máximo de largura de 768px  */
+@media screen and (max-width: 768px) {
+    main {
+        width: auto;
+        float: none;
+    }
+    aside {
+        width: auto;
+        float: none;
+    }
+}
+
+/*  Para o máximo de largura de 480px  */
+@media screen and (max-width: 480px) {
+    header {
+        height: 100px;
+    }
+    input {
+        display: none;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    aside {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    header.a {
+        display: none;
+
+    }
+    
+}
+
+/* Bordas e linhas */
 
