@@ -130,3 +130,38 @@ input {
     
 }
 
+@media screen and (max-width: 480px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.carousel-adjust {
+        display: none;
+    }
+    
+    div.icons {
+        display: none;
+    }
+    fieldset {
+        align-items: center;
+        align-content: center;
+    }
+    form.form {
+        position: initial;
+    }
+    form {
+        width: 300px;
+    }
+    input.input-search {
+        display: none;
+    }   
+
+    input {
+        margin-top: 5px;
+    }
+}      
+
