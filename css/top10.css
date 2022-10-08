@@ -152,3 +152,47 @@ pre {
     height: 500px;
 
 }
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.carousel-adjust {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    div.icons {
+        display: none;
+    }
+    div.img-album {
+        display: none;
+    }
+     div.div-width {
+        width: 190px;
+     }
+     img.img-heart{
+        width: 30px;
+     }
+     div.div-width-number{
+        width: 20px;
+     }
+     div.div-width-2 {
+        width: 10px;
+        margin-left: 10px;
+     }
+     div.div-width-3 {
+        width: 10px;
+     }
+    
+    footer {
+        margin-top: 20px;
+    }
+
+}
