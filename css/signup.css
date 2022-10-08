@@ -54,9 +54,9 @@ footer {
 
 form {
     display: inline-block;
-position: relative;
-padding: 2%;
-width: 30%;
+    position: relative;
+    padding: 2%;
+    width: 30%;
 }
 
 h1 {
