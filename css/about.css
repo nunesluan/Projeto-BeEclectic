@@ -107,30 +107,6 @@ input {
     margin-left: 15px;
 }
 
-@media screen and (max-width: 1280px) {
-    #troca-breakpoints {
-        width: 95%;
-    }
-    main {
-        width: 65%;
-    }
-    aside {
-        width: 30%
-    }
-   
-}
-
-/*  Para o máximo de largura de 768px  */
-@media screen and (max-width: 768px) {
-    main {
-        width: auto;
-        float: none;
-    }
-    aside {
-        width: auto;
-        float: none;
-    }
-}
 
 /*  Para o máximo de largura de 480px  */
 @media screen and (max-width: 480px) {
@@ -171,5 +147,41 @@ input {
     }
 }
 
-/* Bordas e linhas */
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.icons {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    aside {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    header.a {
+        display: none;
+
+    }
+    main{
+        height: 500px;
+        margin: 20px 10px 10px ;
+    }
+    p{
+        font-size: 20px;
+       text-align: justify;
+    }
+}
 

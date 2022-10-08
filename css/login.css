@@ -130,7 +130,7 @@ input {
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 548px) {
     header {
         width: 100%;
     }
@@ -165,3 +165,35 @@ input {
     }
 }      
 
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.carousel-adjust {
+        display: none;
+    }
+ 
+  
+    fieldset {
+        align-items: center;
+        align-content: center;
+    }
+    form.form {
+        position: initial;
+    }
+    form {
+        width: 300px;
+    }
+    input.input-search {
+        display: none;
+    }   
+
+    input {
+        margin-top: 5px;
+    }
+}      

@@ -127,5 +127,28 @@ input {
     input {
         margin-top: 5px;
     }
+}  
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    
+    div.icons {
+        display: none;
+    }
+   
+    input.input-search {
+        display: none;
+    }   
+
+    input {
+        margin-top: 5px;
+    }
 }      
 

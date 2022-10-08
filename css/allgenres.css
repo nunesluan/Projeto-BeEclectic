@@ -176,3 +176,56 @@ pre {
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.carousel-adjust {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    div.icons {
+        display: none;
+    }
+
+    aside {
+        display: contents;
+    }
+
+    h1 {
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    pre {
+        font-size: 16px;
+    }
+    
+    a.button-a {
+        border-radius: 20px;
+        color: black;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: rgb(158, 157, 157);
+        font-weight: bold;
+        margin-left: 4px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+
+}

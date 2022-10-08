@@ -134,7 +134,7 @@ main {
     font-size: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 850px) {
     header {
         width: 100%;
     }
@@ -186,6 +186,64 @@ main {
         display: none;
         
     }
+
+    .button-more{
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 30px;
+                         
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.carousel-adjust {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    div.icons {
+        display: none;
+    }
+    div.container {
+        background-color: #0095A8;
+        width: 70%;
+        height: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    main {
+        height: 100%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 55px;
+    }
+    
+    .p1{
+        padding-left: 40px;
+        margin:  30px ;
+        font-weight: bold;
+        font-size: 35px;
+                                                                                            
+    }
+
+    .p2{
+        text-align: center;
+        padding-top: 3px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
 
     .button-more{
         font-weight: bold;

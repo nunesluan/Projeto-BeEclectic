@@ -112,7 +112,7 @@ pre {
 .img2-height {
     height: 199px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     
     div.logo {
         display: flex;
@@ -132,6 +132,47 @@ pre {
     main {
         display: contents;
     }
+    h1 {
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    pre {
+        font-size: 16px;
+    }
+    .img-playlists {
+        width: 200px;
+        margin-left: 26px;
+        margin-bottom: 14px;
+    }  
+    .img1-height {
+        height: 113px;
+    }
+    .img2-height {
+        height: 133px;
+    }   
+    footer {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1155px) {
+    
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+   
+    input {
+        display: none;
+    }
+    div.icons {
+        display: none;
+    }
+  
     h1 {
         margin-left: 10px;
         font-size: 25px;
