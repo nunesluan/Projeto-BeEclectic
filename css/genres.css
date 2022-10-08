@@ -157,7 +157,6 @@ padding-right: 80px;
 
 pre {
     font-size: 20px;
-    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -195,6 +194,15 @@ pre {
     }
     main {
         display: contents;
+    }
+    h1 {
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    pre {
+        font-size: 16px;
     }
     img.img-main {
         width: 80%;

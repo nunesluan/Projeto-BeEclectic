@@ -41,6 +41,7 @@ nav {
 
 main {
     height: 650px;
+    margin: 20px 10px 10px ;
 }
 
 footer {
@@ -135,7 +136,15 @@ input {
 /*  Para o máximo de largura de 480px  */
 @media screen and (max-width: 480px) {
     header {
-        height: 100px;
+        width: 100%;
+    }
+    div.logo {
+        display: flex;
+       
+        height: 85px;
+    }
+    div.icons {
+        display: none;
     }
     input {
         display: none;
@@ -153,7 +162,14 @@ input {
         display: none;
 
     }
-    
+    main{
+        height: 500px;
+        margin: 20px 10px 10px ;
+    }
+    p{
+        font-size: 20px;
+       text-align: justify;
+    }
 }
 
 /* Bordas e linhas */
